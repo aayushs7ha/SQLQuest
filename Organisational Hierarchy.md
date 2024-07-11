@@ -33,7 +33,6 @@ Update Employees Set ManagerID = 4 Where EmployeeName IN ('David')
 GO
 ```
 
--- SELECT * FROM Employees;
 -- FIND DAVID's Organizational hierarchy
 
 ```
