@@ -1,9 +1,8 @@
-/* SQL query to get the complete organization hierarchy based on an EMPLOYEE ID 
+SQL query to get the complete organization hierarchy based on an EMPLOYEE ID 
 - Pre-requisite 
     - SELF JOIN 
     - CTE
     - Recursive CTE 
-    */
 ```
 Create table Employees
 (
@@ -32,6 +31,7 @@ Update Employees Set ManagerID = 5 Where EmployeeName IN ('John', 'Sam')
 Update Employees Set ManagerID = 4 Where EmployeeName IN ('David')
 GO
 ```
+![image](https://github.com/user-attachments/assets/61b91c91-555f-4617-8521-9191de3d5dde)
 
 -- FIND DAVID's Organizational hierarchy
 
