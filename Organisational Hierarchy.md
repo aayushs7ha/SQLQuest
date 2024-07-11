@@ -60,3 +60,4 @@ LEFT JOIN EmployeeCTE e2
 on e1.ManagerID = e2.EmployeeID
 ```
 
+<img width="1183" alt="image" src="https://github.com/user-attachments/assets/f19f5866-5dfe-4588-84b4-c661753d5e53">
